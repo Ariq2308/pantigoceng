@@ -1,0 +1,64 @@
+body{
+    background-image: url('newpanti.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: aqua;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+    padding-top: 40px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 200px;
+    font-size: 22px;
+    justify-content: space-around;
+}
+
+.content{
+    color: aliceblue;
+    font-size: 70px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+
+.btnmenu:link, .btnmenu:visited {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+
+.btnmenu:hover{
+    color:#006994;
+    transition: 0.5s;
+}
+
+.def-ig {
+    font-weight: 900;
+    line-height: 150px;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.def-ig:hover{
+    color:#006994;
+    transition: 0.5s;
+}
